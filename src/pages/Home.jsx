@@ -4,50 +4,50 @@ import Hero from "../components/Hero/Hero";
 const Home = () => {
   const blogPosts = [
     {
-      img: "/assets/img/1.jpg",
+      img: "/project-5/assets/img/1.jpg",
       title: "Alec Whitten • 1 Jan 2023",
       description: "Bill Walsh leadership lessons",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
     },
     {
-      img: "/assets/img/2.jpg",
+      img: "/project-5/assets/img/2.jpg",
       title: "Demi WIlkinson • 1 Jan 2023",
       description: "PM mental models",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "Mental models are simple expressions of complex processes or relationships.",
     },
     {
-      img: "/assets/img/3.jpg",
+      img: "/project-5/assets/img/3.jpg",
       title: "Candice Wu • 1 Jan 2023",
       description: "What is Wireframing?",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     },
     {
-      img: "/assets/img/4.jpg",
+      img: "/project-5/assets/img/4.jpg",
       title: "Natali Craig • 1 Jan 2023",
       description: "How collaboration makes us better designers",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "Collaboration can make our teams stronger, and our individual designs better.",
     },
     {
-      img: "/assets/img/5.jpg",
+      img: "/project-5/assets/img/5.jpg",
       title: "Drew Cano • 1 Jan 2023",
       description: "Our top 10 Javascript frameworks to use",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "JavaScript frameworks make development easy with extensive features and functionalities.",
     },
     {
-      img: "/assets/img/6.jpg",
+      img: "/project-5/assets/img/6.jpg",
       title: "Orlando Diggs • 1 Jan 2023",
       description: "Podcast: Creating a better CX Community",
-      img1: "/assets/img/icon.svg",
+      img1: "/project-5/assets/img/icon.svg",
       content:
         "Starting a community doesn’t need to be complicated, but how do you get started?",
     },
