@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/roaaalswidany/project-5.git",
+  "homepage": "https://roaaalswidany.github.io/project-5",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
