@@ -1,0 +1,80 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1a1a1a;
+
+  h1 {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  p {
+    padding-top: 24px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: #c0c5d0;
+  }
+
+  .design {
+    display: flex;
+    gap: 16px;
+    input {
+      height: 48px;
+      padding: 12px 16px;
+      color: #667085;
+      border: 1px solid #7f56d9;
+      cursor: pointer;
+      border-radius: 8px;
+      -webkit-border-radius: ;
+      -moz-border-radius: ;
+      -ms-border-radius: ;
+      -o-border-radius: ;
+    }
+
+    button {
+      height: 48px;
+      padding: 12px 26px;
+      background-color: #7f56d9;
+      border: 1px solid #7f56d9;
+      border-radius: 8px;
+      -webkit-border-radius: ;
+      -moz-border-radius: ;
+      -ms-border-radius: ;
+      -o-border-radius: ;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 6vw;
+  }
+
+  .hero p {
+    font-size: 4vw;
+    padding: 12px 0;
+  }
+
+  .design {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .design input,
+  .design button {
+    width: 100%;
+    font-size: 4vw;
+  }
+}
